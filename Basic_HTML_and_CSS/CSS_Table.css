@@ -1,0 +1,10 @@
+table{border: 1px solid silver;}
+
+td:hover {background-color: rgb(255, 0, 204);
+color: rgb(229, 236, 24);}
+
+tr, th{background-color: rgb(31, 22, 131);
+color:rgb(67, 233, 205);}
+
+tr, td {background-color: rgb(157, 168, 157);
+color: black;}
