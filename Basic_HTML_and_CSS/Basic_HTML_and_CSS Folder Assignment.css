@@ -1,0 +1,8 @@
+ol {list-style:lower-roman;}
+
+ul{list-style:disc;}
+
+.estilo {
+    color:rgb(255, 94, 0);
+    text-shadow: 2px 2px #0400ff
+}

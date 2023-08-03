@@ -1,5 +1,31 @@
-P {color:snow;
-background: black;
-font-weight: bold;
-text-align: center;
+.paragrafo {line-height: 30px;
+    color:black;
+    text-align-last: left;
+    padding-left: 1cm;
+    padding-right: 20cm;}
+
+.h1 {
+    color:blue;
+    line-height: 30px;
+    text-align-last: left;
+    padding-left: 1cm;
+    padding-right: 20cm;
+    text-shadow: 2px 2px #ff0000
+}
+
+.h2 {
+    color:purple;
+    line-height: 30px;
+    text-align-last: left;
+    padding-left: 1cm;
+    padding-right: 20cm;
+}
+
+.pre {
+    color:orchid;
+    line-height: 30px;
+    text-align-last: left;
+    padding-left: 1cm;
+    padding-right: 20cm;
+font-size: x-large;
 }
