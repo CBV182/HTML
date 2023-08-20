@@ -1,0 +1,45 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(62, 215, 215);
+}
+
+.estilo{
+    
+    margin: 15px;
+}
+
+.menu{
+    list-style: none;
+    padding:0;
+}
+
+.menu li{
+    margin: 5px;
+    display: inline;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+transition: background .6s;
+}
+
+.menu li:hover{
+   background-color: greenyellow;
+}
+
+#home{
+    margin: 20px;
+    color:blue;
+    font-size: 30px;
+}
+
+#gallery{
+    margin:20px;
+}
+
+#contact{
+    margin:20px;
+
+}
