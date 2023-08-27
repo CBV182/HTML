@@ -1,0 +1,86 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.estilo{
+    background-color: black;
+    margin: 15px;x
+}
+
+.menu{
+    list-style: none;
+    padding:0;
+    margin-bottom: 100px;
+    background-color: black;
+}
+
+.menu li{
+    margin: 100px;
+    display: inline;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+transition: background .6s;
+}
+
+
+.menu li:hover{
+   background-color: rgb(157, 7, 227);
+}
+
+.home{
+display:inline-flex;
+margin: 50px;
+flex-wrap: nowrap;
+font-size: 25px;
+height: 1200px;
+align-content: center;
+}
+
+
+#gallery{
+    margin:500PX;
+    display:inline-flex;
+    align-items:center;
+    margin: 100px;
+}
+
+
+#contact{
+    margin:100px;
+    color:rgb(163, 23, 191);
+
+}
+
+#findus{
+    display: flex;
+    color:white;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:10px;
+    text-align-last: left;
+    padding-right: 100px;
+}
+
+.terms{
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+
+
+h1{
+    margin:80px;
+    font-size: 50px;
+    
+}
+
+.footer{
+    color:rgb(122, 178, 227);
+    padding-inline:100px;
+
+}
