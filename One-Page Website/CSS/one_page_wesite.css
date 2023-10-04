@@ -42,14 +42,23 @@ height: 1200px;
 align-content: center;
 }
 
+.home img{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
 
 #gallery{
     margin:500PX;
     display:inline-flex;
     align-items:center;
     margin: 100px;
+    
 }
 
+.photo img{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
 
 #contact{
     margin:100px;
