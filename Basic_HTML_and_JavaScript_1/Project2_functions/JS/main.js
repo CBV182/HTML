@@ -12,3 +12,9 @@
         other.innerHTML = "The color of power and sophistication. Black is an incredibly strong and intimidating color that exudes authority and makes us feel secure and protected. Often seen at formal and prestigious events, this mysterious marvel arouses and seduces our senses with its elegance and sexiness."
     }
 
+    function myfunction(){
+        var sentence = "Hello, there!";
+        sentence += " You're so beautiful today!";
+        document.getElementById("concatenate").innerHTML= sentence;
+       
+    }
