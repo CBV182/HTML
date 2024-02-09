@@ -17,3 +17,8 @@ function division() {
   var division = 84 / 2;
   document.getElementById("Math4").innerHTML = " 84 / 2 =  " + division;
 }
+
+function multiple() {
+  var multiple = (4+2) * 12 / 2 - 6;
+  document.getElementById("Math5").innerHTML = "(4 + 2) * 12/2 - 6 =" + multiple;
+}
