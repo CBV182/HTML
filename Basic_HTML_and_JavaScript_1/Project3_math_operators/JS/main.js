@@ -27,3 +27,8 @@ function modulus() {
   var modulus = 27 % 4;
   document.getElementById("Math6").innerHTML = "27 % 4 = "  + modulus;
 }
+
+function Unary() {
+  var x = 50;
+  document.getElementById("Math7").innerHTML = -x;
+}

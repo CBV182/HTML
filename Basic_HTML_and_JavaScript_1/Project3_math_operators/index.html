@@ -6,6 +6,12 @@
     <title>Functions_Addition</title>
 <style>
 
+div.calc{
+   display: -webkit-flex;
+   background-color: rgba(54, 137, 178, 0.3);
+
+}
+
 p#Math{
     background-color: blue;
     color: aliceblue;
@@ -69,6 +75,17 @@ p#Math6{
     border-radius: 50px;
 }
 
+p#Math7{
+    background-color: rgb(40, 143, 212);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
 </style>
 </head>
 
@@ -79,6 +96,7 @@ p#Math6{
 
 <h1>JavaScript Functions</h1>
 <h1>Click!</h1>
+<div class="calc">Calculations
 
 <p id ="Math" onclick="addition()">Adition</p>
 
@@ -92,5 +110,9 @@ p#Math6{
 
 <p id ="Math6" onclick="modulus()">Modulus Operator</p>
 
+<p id ="Math7" onclick="Unary()">Unary Operator</p>
+ 
+
+</div>
 </body>
 </html>
