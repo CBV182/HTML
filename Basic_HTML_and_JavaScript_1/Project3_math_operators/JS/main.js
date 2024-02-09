@@ -22,3 +22,8 @@ function multiple() {
   var multiple = (4+2) * 12 / 2 - 6;
   document.getElementById("Math5").innerHTML = "(4 + 2) * 12/2 - 6 =" + multiple;
 }
+
+function modulus() {
+  var modulus = 27 % 4;
+  document.getElementById("Math6").innerHTML = "27 % 4 = "  + modulus;
+}
