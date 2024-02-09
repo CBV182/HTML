@@ -7,3 +7,13 @@ function subtraction() {
   var subtraction = 30 - 25;
   document.getElementById("Math2").innerHTML = " 30 - 25 =  " + subtraction;
 }
+
+function multiplication() {
+  var multiplication = 7 * 81;
+  document.getElementById("Math3").innerHTML = " 7 * 81 =  " + multiplication;
+}
+
+function division() {
+  var division = 84 / 2;
+  document.getElementById("Math4").innerHTML = " 84 / 2 =  " + division;
+}
