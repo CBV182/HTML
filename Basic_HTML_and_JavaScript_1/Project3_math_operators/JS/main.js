@@ -44,3 +44,11 @@ function Decrement () {
   x--;
   document.getElementById("Math9").innerHTML = x;
 }
+
+//Math.Random Assignment
+
+window.alert(Math.random());
+
+window.alert(Math.random()*10);
+
+

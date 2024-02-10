@@ -107,6 +107,36 @@ p#Math9{
   
 }
 
+div#mathbox{
+    background-color: rgb(241, 177, 157);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+div#mathbox2{
+    background-color: rgb(92, 118, 92);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+div#mathbox3{
+    background-color: rgb(127, 133, 35);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
 </style>
 </head>
 
@@ -137,7 +167,45 @@ p#Math9{
 
 <p id ="Math9" onclick="Decrement  ()">Decrement  Operator</p>
 
-
 </div>
+
+<h1>Methods and Objects</h1>
+<h1>Math Methods</h1>
+
+<div id="mathbox"></div>
+<div id="mathbox2"></div>
+
+<h1>Math Objects</h1>
+
+<div id="mathbox3"></div>
+
+<script>
+    
+//Math Methods
+var x = 9.656;
+x.toFixed(0)
+
+
+document.getElementById("mathbox").innerHTML = x.toFixed(0);
+
+(100 + 23).valueOf();
+
+document.getElementById("mathbox2").innerHTML = (100 + 23).valueOf();
+
+//Math Objects
+Math.random();
+Math.round(7.2);
+Math.ceil(5.5);
+Math.floor(5.7);
+Math.pow(7,4);
+Math.sqrt(64);
+Math.PI;
+
+document.getElementById("mathbox3").innerHTML = Math.round(7.2);
+
+
+</script>
+
+
 </body>
 </html>
