@@ -32,3 +32,15 @@ function Unary() {
   var x = 50;
   document.getElementById("Math7").innerHTML = -x;
 }
+
+function Increment () {
+  var x = 2;
+  x++;
+  document.getElementById("Math8").innerHTML = x;
+}
+
+function Decrement () {
+  var x = 7;
+  x--;
+  document.getElementById("Math9").innerHTML = x;
+}
