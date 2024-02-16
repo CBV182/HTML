@@ -4,5 +4,6 @@ function dictionary() {
     calories:"45",
     Type:"Berries!",
   };
+  delete Fruit.calories;
   document.getElementById("Fruit").innerHTML = Fruit.calories;
 }
