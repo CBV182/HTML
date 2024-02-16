@@ -1,3 +1,3 @@
-document.write(2E310)
+document.write(4>2);
 
-document.write(-2E310)
+document.write(4<2);
