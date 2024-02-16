@@ -1,5 +1,3 @@
-document.write(typeof "word");
+document.write(2E310)
 
-document.write(typeof 7);
-
-document.write("20" + 6);
+document.write(-2E310)
