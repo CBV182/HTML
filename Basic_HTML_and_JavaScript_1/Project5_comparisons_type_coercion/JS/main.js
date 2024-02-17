@@ -1,19 +1,7 @@
-x = 14
-y = 14
+document.write(7>4&&15>3);
 
-document.write(x===y);
+document.write(2>7&&7>1);
 
-x = 14
-y = "14"
+document.write(6>3||8>3);
 
-document.write(x===y);
-
-x = 14
-y = 16
-
-document.write(x===y);
-
-x = 14
-y = "16"
-
-document.write(x===y);
+document.write(2>8||8>10);
