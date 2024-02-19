@@ -1,7 +1,34 @@
-document.write(7>4&&15>3);
+//Boolean
+document.write(8>2);
+document.write("<br>");
 
-document.write(2>7&&7>1);
+//type of
+document.write(typeof "2");
+document.write("<br>");
 
-document.write(6>3||8>3);
+//String and Number
+document.write("3" +5);
+document.write("<br>");
 
-document.write(2>8||8>10);
+//==Operator
+document.write(2==2);
+document.write("<br>");
+
+//===Operator
+x = 5;
+y = 2;
+document.write(x===y);
+document.write("<br>");
+
+//&& Operator
+document.write(7>2 && 12<6);
+document.write("<br>");
+
+// || Operator
+document.write(9<4 || 12<7);
+document.write("<br>");
+
+// ! Operator
+function not_function(){
+    document.getElementById("not").innerHTML = !(5>6);
+}
