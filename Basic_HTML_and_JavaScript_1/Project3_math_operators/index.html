@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions_Addition</title>
+<style>
+
+div.calc{
+   display: -webkit-flex;
+   background-color: rgba(54, 137, 178, 0.3);
+
+}
+
+p#Math{
+    background-color: blue;
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+border-radius: 50px;
+
+}
+
+p#Math2{
+    background-color: rgb(255, 0, 149);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+p#Math3{
+    background-color: rgba(18, 83, 15, 0.707);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+p#Math4{
+    background-color: rgb(95, 34, 201);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+p#Math5{
+    background-color: rgb(217, 227, 27);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+p#Math6{
+    background-color: rgb(238, 58, 58);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+p#Math7{
+    background-color: rgb(40, 143, 212);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+p#Math8{
+    background-color: rgb(240, 119, 220);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+  
+}
+
+p#Math9{
+    background-color: rgb(161, 226, 154);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+  
+}
+
+div#mathbox{
+    background-color: rgb(241, 177, 157);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+div#mathbox2{
+    background-color: rgb(92, 118, 92);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+div#mathbox3{
+    background-color: rgb(127, 133, 35);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+</style>
+</head>
+
+    <script src="JS/main.js"></script>
+
+<body>
+
+
+<h1>JavaScript Functions</h1>
+<h1>Click!</h1>
+<div class="calc">Calculations
+
+<p id ="Math" onclick="addition()">Adition</p>
+
+<p id ="Math2" onclick="subtraction()">Subtraction</p>
+
+<p id ="Math3" onclick="multiplication()">Multiplication</p>
+
+<p id ="Math4" onclick="division()">Division</p>
+
+<p id ="Math5" onclick="multiple()">Multiple Operators</p>
+
+<p id ="Math6" onclick="modulus()">Modulus Operator</p>
+
+<p id ="Math7" onclick="Unary()">Unary Operator</p>
+ 
+<p id ="Math8" onclick="Increment ()">Increment Operator</p>
+
+<p id ="Math9" onclick="Decrement  ()">Decrement  Operator</p>
+
+</div>
+
+<h1>Methods and Objects</h1>
+<h1>Math Methods</h1>
+
+<div id="mathbox"></div>
+<div id="mathbox2"></div>
+
+<h1>Math Objects</h1>
+
+<div id="mathbox3"></div>
+
+<script>
+    
+//Math Methods
+var x = 9.656;
+x.toFixed(0)
+
+
+document.getElementById("mathbox").innerHTML = x.toFixed(0);
+
+(100 + 23).valueOf();
+
+document.getElementById("mathbox2").innerHTML = (100 + 23).valueOf();
+
+//Math Objects
+Math.random();
+Math.round(7.2);
+Math.ceil(5.5);
+Math.floor(5.7);
+Math.pow(7,4);
+Math.sqrt(64);
+Math.PI;
+
+document.getElementById("mathbox3").innerHTML = Math.round(7.2);
+
+
+</script>
+
+
+</body>
+</html>
